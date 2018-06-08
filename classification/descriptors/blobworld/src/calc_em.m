@@ -29,10 +29,11 @@ function [ output_args ] = calc_em( features )
         end
         
         if ml > ml_global_max && ml ~= Inf && er ~= 1
-            ml_glob
-        end
-        
+            ml_global_max = ml;
+            assgn_global_max = ret;
+        end        
     end
+    
     
     
 
