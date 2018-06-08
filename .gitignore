@@ -1,0 +1,4 @@
+/.idea
+/classification/utils/output
+/classification/utils/crop_single_test
+/classification/utils/__pycache__
